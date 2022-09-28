@@ -1,29 +1,15 @@
-#include "mai.h"
+#include "main.h"
 
 
 
 /**
-
  * _strspn - get length of prefix substring
-
- *
-
  * Description: return length of bytes of string which consist
-
  * entirely of bytes in a specific set of characters
-
- *
-
  * @str: string to check
-
  * @accept: array of bytes acceptable
-
- *
-
  * Return: the number of bytes in the initial segment of @str which
-
  * consist only bytes from @accept
-
  */
 
 unsigned int _strspn(char *str, char *accept)
