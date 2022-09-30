@@ -1,4 +1,4 @@
-#include "maiwqn.h"
+#include "main.h"
 
 
 
