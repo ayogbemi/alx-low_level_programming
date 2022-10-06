@@ -3,7 +3,6 @@
 #include "main.h"
 
 
-
 /**
 * main - Entry point
 * @argc: command line argument count
@@ -25,5 +24,4 @@ int main(int argc, char *argv[])
 		printf("%s\n", argv[i]);
 
 	return (0);
-
 }

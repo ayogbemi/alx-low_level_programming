@@ -58,17 +58,10 @@ int main(int argc, char *argv[])
 			total += (val / coins[i]);
 
 			val %= coins[i];
-
 			if (val == 0)
-
-				break;
-
+			break;
 		}
-
 		printf("%d\n", total);
-
 	}
-
 	return (0);
-
 }
