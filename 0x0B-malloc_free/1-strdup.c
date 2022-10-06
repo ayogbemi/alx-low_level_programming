@@ -46,15 +46,12 @@ char *_strdup(char *str)
 	while (*(str + i))
 
 	{
-
 		*(newstr + i) = *(str + i);
 
 		++i;
 
 	}
-
 	*(newstr + i) = '\0';
 
 	return (newstr);
-
 }
