@@ -23,8 +23,6 @@ int main(int argc, char *argv[])
 
 	int total, i, val;
 
-
-
 	total = 0;
 
 	if (argc != 2)
@@ -34,7 +32,6 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 
 		return (1);
-
 	}
 
 	val = atoi(argv[1]);
@@ -44,19 +41,15 @@ int main(int argc, char *argv[])
 	{
 
 		printf("0\n");
-
 	}
 
 	else
 
 	{
-
 		for (i = 0; i < 5; ++i)
 
 		{
-
 			total += (val / coins[i]);
-
 			val %= coins[i];
 			if (val == 0)
 			break;
