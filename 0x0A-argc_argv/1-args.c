@@ -3,25 +3,21 @@
 #include "main.h"
 
 
+
 /**
 * main - Entry point
-* @argc: command line argument count
+* @argc: argument count
 * @argv: arguments as array of strings
-* Description: print command line arguments
+* Description: print the number of arguments
 * Return: 0 (success)
 */
 
-int main(int argc, char *argv[])
+int main(int argc, char __attribute__((unused)) *argv[])
 
 {
 
-	int i;
-
-
-
-	for (i = 0; i < argc; ++i)
-
-		printf("%s\n", argv[i]);
+	printf("%d\n", argc - 1);
 
 	return (0);
+
 }
